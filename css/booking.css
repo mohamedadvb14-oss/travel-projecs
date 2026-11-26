@@ -1,0 +1,7 @@
+.book-layout{display:grid;grid-template-columns:2fr 1fr;gap:2rem;align-items:start}
+.book-box{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:1.5rem;margin-bottom:1.5rem}
+.book-box h2{font-size:1.2rem;border-bottom:2px solid var(--sky);padding-bottom:.5rem}
+.book-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.book-summary{position:sticky;top:90px;background:var(--sky);border-radius:var(--radius);padding:1.5rem}
+.book-summary li{display:flex;justify-content:space-between;padding:.4rem 0;border-bottom:1px dashed var(--line)}
+.book-total{font-size:1.3rem;font-weight:800;color:var(--primary)}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Booking | World Trips</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/base.css"><link rel="stylesheet" href="../../css/components.css"><link rel="stylesheet" href="../../css/header.css"><link rel="stylesheet" href="../../css/footer.css"><link rel="stylesheet" href="../../css/extras.css"><link rel="stylesheet" href="../../css/booking.css"><link rel="stylesheet" href="../../css/responsive.css"></head><body>
+<div class="scroll-progress" aria-hidden="true"></div>
+<header class="header"><div class="container header__bar">
+<a class="header__logo" href="../index.html">🧭 World Trips</a>
+<input type="checkbox" id="menu" class="header__toggle" aria-label="menu"><label for="menu" class="header__burger">☰</label>
+<nav class="nav"><a href="../index.html">Home</a><a href="destinations.html">Destinations</a><a href="trips.html">Trips</a><a href="booking.html" class="is-active">Book now</a><a href="tips.html">Tips</a><a href="contact.html">Contact</a><a href="auth.html">Sign in</a><a class="header__lang" href="../../pages/booking.html" hreflang="ar">عربي</a></nav></div></header>
+<section class="section"><div class="container book-layout">
+<form action="#"><div class="book-box"><h2>Traveler details</h2><div class="book-row">
+<div class="form__group"><label class="form__label" for="fn">Full name</label><input class="form__input" id="fn" required></div>
+<div class="form__group"><label class="form__label" for="em">Email</label><input class="form__input" id="em" type="email" required></div></div>
+<div class="form__group"><label class="form__label" for="ph">Mobile number</label><input class="form__input" id="ph" type="tel" pattern="[0-9+ ]{8,15}" placeholder="01XXXXXXXXX" required></div></div>
+<div class="book-box"><h2>Trip details</h2><div class="book-row">
+<div class="form__group"><label class="form__label" for="pk">Package</label><select class="form__input" id="pk"><option>Classic Egypt</option><option>Paris</option><option>Switzerland</option></select></div>
+<div class="form__group"><label class="form__label" for="dt">Travel date</label><input class="form__input" id="dt" type="date" required></div></div>
+<div class="form__group"><label class="form__label" for="pp">Travelers</label><input class="form__input" id="pp" type="number" min="1" max="20" value="2" required></div>
+<div class="book-tier"><label><input type="radio" name="tier" checked> <strong>Standard</strong><small>4-star stays and core tours</small></label><label><input type="radio" name="tier"> <strong>Luxury (+45%)</strong><small>5-star suites and a private car</small></label></div><label><input type="checkbox"> Airport transfer</label><br><label><input type="checkbox"> Travel insurance</label></div>
+<div class="book-box"><h2>Payment</h2><div class="form__group"><label class="form__label" for="cn">Card number</label><input class="form__input" id="cn" inputmode="numeric" pattern="[0-9]{16}" maxlength="16" required></div>
+<div class="book-row"><div class="form__group"><label class="form__label" for="ex">Expiry date</label><input class="form__input" id="ex" type="month" required></div><div class="form__group"><label class="form__label" for="cv">CVV</label><input class="form__input" id="cv" pattern="[0-9]{3}" maxlength="3" required></div></div></div>
+<button class="btn btn--primary btn--block" type="submit">Confirm booking</button></form>
+<aside class="book-summary"><h2>Booking summary</h2><ul><li><span>Package</span><span>Switzerland</span></li><li><span>Travelers</span><span>2</span></li><li><span>Price per person</span><span>EGP 34,500</span></li><li class="book-total"><span>Total</span><span>EGP 69,000</span></li></ul></aside></div></section>
+<footer class="footer"><div class="container grid grid--3">
+<div><h3>World Trips</h3><p>We plan your trip around the world, from booking to your last day.</p></div>
+<div><h3>Quick links</h3><ul><li><a href="destinations.html">Destinations</a></li><li><a href="trips.html">Trips</a></li><li><a href="booking.html">Booking</a></li><li><a href="tips.html">Travel tips</a></li><li><a href="credits.html">Photo credits</a></li></ul></div>
+<div><h3>Newsletter</h3><form><div class="form__group"><label class="form__label" for="nl">Your email</label><input class="form__input" id="nl" type="email" required></div><button class="btn btn--primary" type="submit">Subscribe</button></form></div>
+</div><p class="footer__copy">© 2026 World Trips. All rights reserved.</p></footer>
+<aside class="chat"><details><summary>🤖 Quick answers</summary><div class="chat__body"><details><summary>📍 What are the best-known places?</summary><p>Start with the Pyramids in Egypt, the Eiffel Tower in Paris, the Matterhorn in Switzerland and the Colosseum in Rome.</p></details><details><summary>☀️ When is the best time to travel?</summary><p>Spring and autumn usually suit Europe, winter suits Egypt and the UAE. Each place page lists its best time.</p></details><details><summary>🧳 What should I pack?</summary><p>Comfortable clothes, walking shoes, sunscreen, water, and copies of your booking and ID.</p></details><details><summary>🔄 Can I cancel a booking?</summary><p>Yes, cancellation is free up to 48 hours before the trip.</p></details><details><summary>☎️ How can I contact you?</summary><p>Use the Contact page and we will reply during working hours.</p></details><p class="chat__note">Prepared answers, not a real AI.</p></div></details></aside>
+</body></html>

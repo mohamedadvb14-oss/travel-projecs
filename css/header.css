@@ -1,0 +1,6 @@
+.header{background:var(--primary-dark);color:var(--white);position:sticky;top:0;z-index:10}
+.header__bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:68px}
+.header__logo{font-size:1.5rem;font-weight:800;color:var(--accent)}
+.nav{display:flex;align-items:center;gap:1.4rem}.nav a:hover,.nav a.is-active{color:var(--accent)}
+.header__toggle,.header__burger{display:none}
+.header__lang{border:2px solid var(--accent);color:var(--accent);padding:.15rem .9rem;border-radius:999px;font-weight:700}.header__lang:hover{background:var(--accent);color:var(--ink)!important}

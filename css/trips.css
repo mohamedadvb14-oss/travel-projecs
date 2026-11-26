@@ -1,0 +1,6 @@
+.trip-card--hot{border:2px solid var(--accent)}
+.trip-list li::before{content:"✓ ";color:var(--primary);font-weight:800}.trip-list{margin-bottom:1rem;font-size:.95rem}
+.trip-table-wrap{overflow-x:auto}.trip-table{width:100%;border-collapse:collapse;background:var(--white)}
+.trip-table th,.trip-table td{padding:.8rem 1rem;border:1px solid var(--line);text-align:center}.trip-table th{background:var(--primary);color:var(--white)}
+.trip-faq details{background:var(--white);border:1px solid var(--line);border-radius:10px;padding:.9rem 1.2rem;margin-bottom:.7rem}
+.trip-faq summary{cursor:pointer;font-weight:700}.trip-faq p{margin-top:.5rem;color:var(--muted)}

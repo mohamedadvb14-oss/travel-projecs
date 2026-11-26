@@ -1,0 +1,3 @@
+.auth-wrap{display:grid;grid-template-columns:1fr 1fr;gap:2rem;max-width:860px;margin:auto}
+.auth-box{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:2rem}
+.auth-box h2{font-size:1.4rem}

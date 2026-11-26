@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>الحجز | رحلات العالم</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/base.css"><link rel="stylesheet" href="../css/components.css"><link rel="stylesheet" href="../css/header.css"><link rel="stylesheet" href="../css/footer.css"><link rel="stylesheet" href="../css/extras.css"><link rel="stylesheet" href="../css/booking.css"><link rel="stylesheet" href="../css/responsive.css"></head><body>
+<div class="scroll-progress" aria-hidden="true"></div>
+<header class="header"><div class="container header__bar">
+<a class="header__logo" href="../index.html">🧭 رحلات العالم</a>
+<input type="checkbox" id="menu" class="header__toggle" aria-label="menu"><label for="menu" class="header__burger">☰</label>
+<nav class="nav"><a href="../index.html">الرئيسية</a><a href="destinations.html">الوجهات</a><a href="trips.html">الرحلات</a><a href="booking.html" class="is-active">احجز الآن</a><a href="tips.html">نصائح</a><a href="contact.html">تواصل معنا</a><a href="auth.html">تسجيل الدخول</a><a class="header__lang" href="../en/pages/booking.html" hreflang="en">English</a></nav></div></header>
+<section class="section"><div class="container book-layout">
+<form action="#"><div class="book-box"><h2>بيانات المسافر</h2><div class="book-row">
+<div class="form__group"><label class="form__label" for="fn">الاسم بالكامل</label><input class="form__input" id="fn" required></div>
+<div class="form__group"><label class="form__label" for="em">البريد الإلكتروني</label><input class="form__input" id="em" type="email" required></div></div>
+<div class="form__group"><label class="form__label" for="ph">رقم الموبايل</label><input class="form__input" id="ph" type="tel" pattern="[0-9+ ]{8,15}" placeholder="01XXXXXXXXX" required></div></div>
+<div class="book-box"><h2>تفاصيل الرحلة</h2><div class="book-row">
+<div class="form__group"><label class="form__label" for="pk">الباقة</label><select class="form__input" id="pk"><option>باقة مصر الكلاسيكية</option><option>باقة باريس</option><option>باقة سويسرا</option></select></div>
+<div class="form__group"><label class="form__label" for="dt">تاريخ السفر</label><input class="form__input" id="dt" type="date" required></div></div>
+<div class="form__group"><label class="form__label" for="pp">عدد الأفراد</label><input class="form__input" id="pp" type="number" min="1" max="20" value="2" required></div>
+<div class="book-tier"><label><input type="radio" name="tier" checked> <strong>باقة عادية</strong><small>فنادق 4 نجوم وجولات أساسية</small></label><label><input type="radio" name="tier"> <strong>باقة فاخرة (+45%)</strong><small>فنادق 5 نجوم وسيارة خاصة</small></label></div><label><input type="checkbox"> نقل من المطار</label><br><label><input type="checkbox"> تأمين سفر</label></div>
+<div class="book-box"><h2>الدفع</h2><div class="form__group"><label class="form__label" for="cn">رقم البطاقة</label><input class="form__input" id="cn" inputmode="numeric" pattern="[0-9]{16}" maxlength="16" required></div>
+<div class="book-row"><div class="form__group"><label class="form__label" for="ex">تاريخ الانتهاء</label><input class="form__input" id="ex" type="month" required></div><div class="form__group"><label class="form__label" for="cv">CVV</label><input class="form__input" id="cv" pattern="[0-9]{3}" maxlength="3" required></div></div></div>
+<button class="btn btn--primary btn--block" type="submit">تأكيد الحجز</button></form>
+<aside class="book-summary"><h2>ملخص الحجز</h2><ul><li><span>الباقة</span><span>باقة سويسرا</span></li><li><span>عدد الأفراد</span><span>2</span></li><li><span>السعر للفرد</span><span>34,500 ج.م</span></li><li class="book-total"><span>الإجمالي</span><span>69,000 ج.م</span></li></ul></aside></div></section>
+<footer class="footer"><div class="container grid grid--3">
+<div><h3>رحلات العالم</h3><p>نخطط لك رحلتك حول العالم من أول الحجز لحد آخر يوم.</p></div>
+<div><h3>روابط سريعة</h3><ul><li><a href="destinations.html">الوجهات</a></li><li><a href="trips.html">الرحلات</a></li><li><a href="booking.html">الحجز</a></li><li><a href="tips.html">نصائح السفر</a></li><li><a href="credits.html">حقوق الصور</a></li></ul></div>
+<div><h3>اشترك في النشرة</h3><form><div class="form__group"><label class="form__label" for="nl">بريدك الإلكتروني</label><input class="form__input" id="nl" type="email" required></div><button class="btn btn--primary" type="submit">اشترك</button></form></div>
+</div><p class="footer__copy">© 2026 رحلات العالم. كل الحقوق محفوظة.</p></footer>
+<aside class="chat"><details><summary>🤖 مساعد الأسئلة</summary><div class="chat__body"><details><summary>📍 إيه أشهر الأماكن السياحية؟</summary><p>ابدأ بالأهرامات في مصر، وبرج إيفل في باريس، وجبل ماترهورن في سويسرا، والكولوسيوم في روما.</p></details><details><summary>☀️ أنسب وقت أسافر إمتى؟</summary><p>الربيع والخريف غالبًا الأنسب لأوروبا، والشتاء لمصر والإمارات. كل مكان فيه "أفضل وقت" في صفحته.</p></details><details><summary>🧳 آخد معايا إيه؟</summary><p>ملابس مريحة وحذاء للمشي وواقي شمس ومياه ونسخة من أوراق الحجز والهوية.</p></details><details><summary>🔄 ينفع ألغي الحجز؟</summary><p>أيوه، الإلغاء مجاني قبل الرحلة بـ 48 ساعة.</p></details><details><summary>☎️ إزاي أتواصل معاكم؟</summary><p>من صفحة «تواصل معنا» وهنرد في ساعات العمل.</p></details><p class="chat__note">إجابات جاهزة وليست ذكاءً اصطناعيًا حقيقيًا.</p></div></details></aside>
+</body></html>

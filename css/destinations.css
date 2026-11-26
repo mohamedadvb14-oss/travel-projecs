@@ -1,0 +1,5 @@
+.dest-head{background:var(--primary);color:var(--white);padding:3rem 0}
+.dest-filter{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:2rem}
+.dest-filter a{padding:.4rem 1.1rem;border:1px solid var(--line);border-radius:999px;background:var(--white);font-weight:700}
+.dest-grid{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}.dest-country{padding-top:1.5rem;margin-bottom:1.5rem;scroll-margin-top:80px}
+.dest-filter a:hover,.dest-filter a.is-active{background:var(--primary);color:var(--white)}

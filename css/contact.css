@@ -1,0 +1,2 @@
+.contact-layout{display:grid;grid-template-columns:3fr 2fr;gap:2rem}
+.contact-info{background:var(--primary);color:var(--white);padding:1.8rem;border-radius:var(--radius)}.contact-info li{margin-bottom:.8rem}
